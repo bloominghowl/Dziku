@@ -157,7 +157,6 @@ onMounted(() => {
 					</div>
 
 					<div class="actions">
-						<button class="edit" @click="editTodo(todo)">Edit</button>
 						<button class="delete" @click="removeTodo(todo)">Delete</button>
 					</div>
 				</div>
