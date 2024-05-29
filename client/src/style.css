@@ -1,16 +1,20 @@
 :root {
-	--primary: #EA40A4;
-	--business: #3A82EE;
-	--personal: var(--primary);
+	--primary: #39a16d;
+	--business: #3a82ee;
+	--personal: #ddd905;
+	--school: #55be0f;
+	--errands: #9014e2;
 	--light: #EEE;
 	--grey: #888;
 	--dark: #313154;
-	--danger: #ff5b57;
+	--danger: #f83e3b;
 
 	--shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
-	--business-glow: 0px 0px 4px rgba(58, 130, 238, 0.75);
-	--personal-glow: 0px 0px 4px rgba(234, 64, 164, 0.75);
+	--business-glow: 0px 0px 4px rgba(132, 240, 141, 0.75);
+	--personal-glow: 0px 0px 4px rgba(241, 231, 82, 0.75);
+	--school-glow:   0px 0px 4px rgba(111, 243, 24, 0.75);
+	--errands-glow:  0px 0px 4px rgba(239, 218, 245, 0.75);
 }
 
 * {
@@ -121,6 +125,15 @@ input[type="checkbox"] {
 .bubble.personal {
 	border-color: var(--personal);
 	box-shadow: var(--personal-glow);
+}
+
+.bubble.school {
+	border-color: var(--school);
+	box-shadow: var(--school-glow);
+}
+.bubble.errands {
+	border-color: var(--errands);
+	box-shadow: var(--errands-glow);
 }
 
 .bubble::after {
