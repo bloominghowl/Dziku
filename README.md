@@ -1,14 +1,28 @@
 # Dziku:
+
+## Description
 Dziku is a user-friendly task management application built with Vue.js. Dziku empowers you to organize your daily tasks and stay on top of your goals.
 
-Features:
+## Features:
+### Task Management:
+- Add new tasks with clear descriptions.
+- Edit existing tasks to update details.
+- Task Categorization: Organize tasks by category (business, personal, school, 
+  errands) for better focus.
+- Clean and Intuitive Interface:
+- Modern and minimalist design for a clutter-free experience.
+- Responsive layout ensures optimal viewing across various devices (desktop, mobile, tablet).
+  
+### Planned Features (Future Development):
+- <b>Task completion:</b> Mark tasks as complete as you progress, providing a sense of accomplishment.
+- Task Prioritization: Mark tasks as high, medium, or low priority to prioritize 
+  crucial items and ensure you tackle the most important ones first.
+- Due Dates: Assign due dates to tasks for a clear overview of your schedule and to 
+  avoid missing deadlines.
+- User Accounts: Create user accounts to save your tasks and access them from any 
+  device (planned). This allows for task syncing across devices for ultimate 
+  convenience.
 
-Add and Manage Tasks: Create new tasks, edit existing ones, and mark them complete as you progress.
-Task Categorization (Planned): Organize your tasks by categories like business, personal, school, errands, chores, health & fitness, or hobbies (more categories can be added!).
-Prioritization (Planned): Focus on what matters most! Mark tasks as high, medium, or low priority to prioritize crucial items.
-Due Dates (Planned): Never miss a deadline! Assign due dates to your tasks for a clear overview of your schedule.
-Clean and Intuitive Interface: Dziku boasts a modern and user-friendly design that makes managing your tasks a breeze.
-Getting Started:
 
 Clone the Repository: Use git clone https://github.com/bloominghowl/todo-vue.git to clone this repository to your local machine.
 Install Dependencies: Navigate to the project directory and run npm install to install all required dependencies.
