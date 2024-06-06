@@ -11,51 +11,64 @@ Dziku is a user-friendly task management application built with Vue.js. Dziku em
   errands) for better focus.
 - Clean and Intuitive Interface:
 - Modern and minimalist design for a clutter-free experience.
-- Responsive layout ensures optimal viewing across various devices (desktop, mobile, tablet).
+- Responsive layout ensures optimal viewing across various devices (desktop, mobile, 
+  tablet).
   
 ### Planned Features (Future Development):
-- <b>Task completion:</b> Mark tasks as complete as you progress, providing a sense of accomplishment.
-- Task Prioritization: Mark tasks as high, medium, or low priority to prioritize 
-  crucial items and ensure you tackle the most important ones first.
-- Due Dates: Assign due dates to tasks for a clear overview of your schedule and to 
-  avoid missing deadlines.
-- User Accounts: Create user accounts to save your tasks and access them from any 
-  device (planned). This allows for task syncing across devices for ultimate 
+- <b>Task completion:</b> Mark tasks as complete as you progress, providing a sense of 
+  accomplishment.
+- <b>Task Prioritization:</b> Mark tasks as high, medium, or low priority to 
+  prioritize crucial items and ensure you tackle the most important ones first.
+- <b>Due Dates:</b> Assign due dates to tasks for a clear overview of your schedule 
+  and to avoid missing deadlines.
+- <b>User Accounts:</b> Create user accounts to save your tasks and access them from 
+  any device (planned). This allows for task syncing across devices for ultimate 
   convenience.
 
+## Getting Started
+### Prerequisites
+- Node.js and npm (or yarn) installed on your system.
+- Basic understanding of Vue.js concepts is helpful.
 
-Clone the Repository: Use git clone https://github.com/bloominghowl/todo-vue.git to clone this repository to your local machine.
-Install Dependencies: Navigate to the project directory and run npm install to install all required dependencies.
-Run the Development Server: Start the development server with npm run dev. This will launch Dziku in your browser, typically at http://localhost:8080/.
+### 1. Clone the repository
+```bash
+git clone https://github.com/bloominghowl/dziku.git
+```
+### 2. Install dependencies
+```bash
+cd client
+npm install
+```
+- or
+- 
+```bash
+yarn install
+```
+### 3. Run the development server:
+```bash
+npm run dev
+```
+- or
+```bash
+  yarn run dev
+```
+This will start the development server and open the app in your web browser, typically at http://localhost:8080/.
 
-Deployment:
-
+## Deployment
 Dziku is currently live at dziku.vercel.app.
 
-Contributing:
-
-We welcome contributions to Dziku! If you'd like to be involved, please fork the repository and submit a pull request with your changes. We recommend following these guidelines:
-
-Clear Commit Messages: Use descriptive commit messages that explain the changes you made.
-Code Style: Adhere to consistent code formatting and style conventions.
-Testing: Consider adding unit tests for your code changes to ensure quality.
-License:
-
-This project is licensed under the MIT License.
-
-Built With:
-
-Vue.js (JavaScript framework)
+## Built with
+- vuejs
+  
 Author:
-
 Angela Ayivi
-Roadmap:
 
+## Stay Tuned!
 The Dziku development journey continues! We're actively working on adding new features and improving the overall user experience. Here's a glimpse into what's planned for the future:
 
-Task Categorization
-Task Prioritization
-Due Dates
-User Accounts (for saving and syncing tasks)
+- Task Categorization (planned)
+- Task Prioritization (planned)
+- Due Dates (planned)
+- User Accounts (planned)
 
-Stay tuned! We'll keep this repository updated with progress and new features. Feel free to reach out with any questions or suggestions.
+We'll keep this repository updated with progress and new features. Feel free to reach out with any questions or suggestions.
