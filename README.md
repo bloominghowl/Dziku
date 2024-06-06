@@ -1,5 +1,4 @@
-# todo-vue
-Dziku: A Ghanaian-Inspired To Do App
+# Dziku:
 Dziku is a user-friendly task management application built with Vue.js. Dziku empowers you to organize your daily tasks and stay on top of your goals.
 
 Features:
