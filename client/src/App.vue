@@ -110,28 +110,6 @@ onMounted(() => {
 						<span class="bubble personal"></span>
 						<div>Personal</div>
 					</label>
-
-					<label>
-						<input 
-							type="radio" 
-							name="category" 
-							id="category3" 
-							value="School"
-							v-model="input_category" />
-						<span class="bubble school"></span>
-						<div>School</div>
-					</label>
-
-					<label>
-						<input 
-							type="radio" 
-							name="category" 
-							id="category4" 
-							value="Errands"
-							v-model="input_category" />
-						<span class="bubble errands"></span>
-						<div>Errands</div>
-					</label>
 				</div>
 
 				<input type="submit" value="Add todo" />
@@ -141,15 +119,14 @@ onMounted(() => {
 		<section class="todo-list">
 			<h3>TODO LIST</h3>
 			<div class="list" id="todo-list">
-
 				<div v-for="todo in todos_asc" :class="`todo-item ${todo.done && 'done'}`">
 					<label>
 						<input type="checkbox" v-model="todo.done" />
 						<span :class="`bubble ${
-							todo.category == 'business' 
-								? 'business' 
-								: 'personal'
-						}`"></span>
+							 todo.category == 'business' 
+                             ? 'business' 
+                             : 'personal'
+							 }`"></span>
 					</label>
 
 					<div class="todo-content">
